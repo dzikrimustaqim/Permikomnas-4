@@ -140,7 +140,7 @@
       </div>
       <!-- End Breadcrumbs -->
 
-      <!-- ======= Contact Section ======= -->
+      <!-- ======= Kontak Section ======= -->
       <section id="contact" class="contact">
         <div class="container" data-aos="fade-up">
           <div>
@@ -187,7 +187,8 @@
 
             <div class="col-lg-8">
               <form
-                action="forms/contact.php"
+                id="contact-form"
+                action="https://formspree.io/f/xleybrrn"
                 method="post"
                 role="form"
                 class="php-email-form"
@@ -196,7 +197,7 @@
                   <div class="col-md-6 form-group">
                     <input
                       type="text"
-                      name="name"
+                      name="Nama"
                       class="form-control"
                       id="name"
                       placeholder="Nama Lengkap"
@@ -207,7 +208,7 @@
                     <input
                       type="email"
                       class="form-control"
-                      name="email"
+                      name="Email"
                       id="email"
                       placeholder="Email"
                       required
@@ -218,18 +219,18 @@
                   <input
                     type="text"
                     class="form-control"
-                    name="subject"
+                    name="Asal Instansi"
                     id="subject"
-                    placeholder="Kritik"
+                    placeholder="Asal Instansi"
                     required
                   />
                 </div>
                 <div class="form-group mt-3">
                   <textarea
                     class="form-control"
-                    name="message"
+                    name="Kritik & Saran"
                     rows="5"
-                    placeholder="Saran"
+                    placeholder="Kritik & Saran"
                     required
                   ></textarea>
                 </div>
@@ -241,15 +242,15 @@
                   </div>
                 </div>
                 <div class="text-center">
-                  <button type="submit">Kirim Pesan</button>
+                  <button type="submit" name="submit">Kirim Pesan</button>
                 </div>
               </form>
             </div>
-            <!-- End Contact Form -->
+            <!-- End Kontak Form -->
           </div>
         </div>
       </section>
-      <!-- End Contact Section -->
+      <!-- End Kontak Section -->
     </main>
     <!-- End #main -->
 
@@ -365,5 +366,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
   </body>
 </html>
